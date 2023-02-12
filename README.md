@@ -9,7 +9,7 @@ This will install all the required libraries.
 
 Usage:
 
->>>python main.py
+python main.py
 Enter first two letters of player name: me
 Enter name of player: lionel messi
 
