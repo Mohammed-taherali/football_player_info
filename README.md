@@ -1,22 +1,28 @@
-Hello everyone!
+# Footballer Information Generator
 
-Using this project, we can get the information and complete statistics of any footballer.
+This project gets all the information and statistic about your favourite footballer by web scraping using the Beautifulsoup library in python.
 
-Clone this repository and run 
-pip install -r requirements.txt
+## Installation
 
-This will install all the required libraries.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install [Beautifulsoup](https://pypi.org/project/beautifulsoup4/).
 
-Usage:
+```bash
+pip install beautifulsoup4
+```
 
-python main.py
+## Usage
 
+```bash
+>>>python main.py
 Enter first two letters of player name: me
-
 Enter name of player: lionel messi
+```
+
+You will now see a file name 'Lionel-Messi-info.txt' file in the current directory.
 
 
-You can see a file named 'Lionel-Messi-info.txt' file which contains all the statistics about the player.
+## Contributing
+Pull requests are welcome. For further communication connect at col.mohammedtaher@gmail.com
 
-Hope you like it!
-If you find any bugs or wish to suggest any improvements, do fork the repo or mail me at col.mohammedtaher@gmail.com
+## Acknowledgements
+The data in the file is provided by the courtesy of [Fbref website](https://fbref.com/en/players/)
