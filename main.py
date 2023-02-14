@@ -36,30 +36,6 @@ def get_player_link():
 
 def player_stats():
     
-    """# # Get the name of the player
-    # two_letters = input("Enter first two letters of player name: ")
-    # player_name = input("Enter name of player: ")
-    # player_name = player_name.title().replace(' ', '-')
-
-    # # Get the HTML content of the website
-    # source = requests.get(f'{website}players/{two_letters}/').text
-    # soup = BeautifulSoup(source, 'lxml')
-
-    # # Get the 'div' containing the names and 
-    # # info of all player whose names are starting with the given two letters
-    # article = soup.find('div', class_="section_content")
-    # results = article.find_all('p')
-
-    # # Find the link to the player's page.
-    # info_link = None 
-    # for info in results:
-    #     name = info.a.get("href").split('/')[-1]
-    #     if player_name.lower() == name.lower():
-    #         # print("found")
-    #         player_id = info.a.get("href").split('/')[-2]
-    #         info_link = f'{website}players/{player_id}/scout/365_m1/{player_name}-Scouting-Report'
-    #         break"""
-    
     info_link, player_name, player_id = get_player_link()
 
     if not info_link:
