@@ -1,6 +1,6 @@
 # Footballer Information Generator
 
-This project gets all the information and statistic about your favourite footballer by web scraping using the Beautifulsoup library in python.
+This project gets all the information and statistic about your favourite footballer by web scraping using the [Beautifulsoup](https://pypi.org/project/beautifulsoup4/). library in python.
 
 ## Installation
 
